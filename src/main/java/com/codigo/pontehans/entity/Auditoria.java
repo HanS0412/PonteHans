@@ -15,13 +15,10 @@ import java.sql.Timestamp;
 public class Auditoria {
 
     private String usuaCrea;
-//    @Temporal(TemporalType.DATE)
     private Timestamp dateCreate;
     private String usuaModif;
-//    @Temporal(TemporalType.DATE)
     private Timestamp dateModif;
     private String usuaDelet;
-//    @Temporal(TemporalType.DATE)
     private Timestamp dateDelet;
 
 }
